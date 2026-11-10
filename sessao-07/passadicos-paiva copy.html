@@ -114,7 +114,7 @@ Recomenda-se calçado de montanha e reserva suficiente de água.
 
 <section id="bilhetes">
 <h2>Tabela de Ingressos e Modalidades</h2>
-<table>
+<table border="2">
 <caption>Preços base online dos bilhetes</caption>
 <thead>
     <tr>
@@ -193,13 +193,11 @@ Recomenda-se calçado de montanha e reserva suficiente de água.
 
         <br>
 </fieldset>
-
+<br>
 <fieldset>
     <legend>Dados do agendamento da visita</legend>
 
-    <br>
-
-    <label for="data">Data da visita:</label>
+    <label for="data">Data da visita:</label><br>
     <input 
     type="date"
     id="data"
@@ -208,7 +206,7 @@ Recomenda-se calçado de montanha e reserva suficiente de água.
     >
     <br>
 
-    <label for="participantes">Números total de participantes:</label>
+    <label for="participantes">Números total de participantes:</label><br>
     <input
     type="number"
     id="participantes"
@@ -219,18 +217,17 @@ Recomenda-se calçado de montanha e reserva suficiente de água.
     >
     <br>
 
-    <label for="modalidade">Modalidade de visita pretendida:</label>
+    <label for="modalidade">Modalidade de visita pretendida:</label><br>
     <select id="modalidade" name="modalidade" required>
     <option value="">Selicione uma Modalidade</option>
     <option value="passadiço-simple">Passadiços Simples</option>
     <option value="ponte-516">Passadiços com travessia da Ponte 516 Arouca</option>
     <option value="visita-guiada">Visita Guiada por Especialista em Geologia</option>
 </select>
-<br>
+<br><br>
 
 <fieldset>
     <legend>Serviços complementares opcionais</legend>
-    <br>
     <input
      type="checkbox"
      id="transporte"
@@ -241,7 +238,7 @@ Recomenda-se calçado de montanha e reserva suficiente de água.
     <br>
 </fieldset>
 <br>
-<label for="observaçoes">Observações:</label>
+<label for="observacoes">Observações:</label>
 <textarea
 id="observacoes"
 name="observacoes"
